@@ -1,0 +1,38 @@
+.footer {
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	background-color: #6998AB;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+  }
+  
+  .footer-content a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 15px;
+  }
+  
+  .footer-content a i {
+	margin-right: 5px; 
+  }
+  
+  .footer-content a:hover {
+	text-decoration: underline;
+  }
+  
+  .footer-content p {
+	margin-top: 5px;
+	font-size: 14px;
+  }
+  
+
+
+
+
+
+
+
+
+
