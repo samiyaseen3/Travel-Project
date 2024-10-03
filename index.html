@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-   
+
 </head>
 <body>
 
@@ -37,7 +37,7 @@
                 </li>
             </ul>
         </nav>
- 
+
         <div class="title">
             <h1>FIRSTFLIGHT TRAVELS</h1>
             <p>Plan your trip with us and travel around the world with the most affordable packages!</p>
@@ -55,7 +55,7 @@
     <div class="rowitems">
         <div class="container-box">
         <div class="container-image">
-           <img src="./files/1a.jpg" alt="Flight Services">
+        <img src="./files/1a.jpg" alt="Flight Services">
         </div>
             <h4>Flight Services</h4>
             <p>Arrival and Departure</p>
@@ -63,7 +63,7 @@
     
         <div class="container-box">
         <div class="container-image">
-           <img src="./files/2a.jpg" alt="Food Services">
+        <img src="./files/2a.jpg" alt="Food Services">
         </div>
             <h4>Food Services</h4>
             <p>Catering</p>
@@ -103,7 +103,7 @@
             <p>Kashmir</p>
         </div></a>
 
-       
+
 
         <a href="#" target="_blank"><div class="col-content">
             <img src="./files/l2.jpg" alt="">
@@ -246,20 +246,59 @@
 
 </section>
 
-<!-- Newsletter -->
+<!-- contact us -->
 
-<section class="newsletter">
-    <div class="newstext">
-        <h2>Newsletter</h2>
+<section class="contactUs">
+    <div class="contactUsText">
+        <h2>Contact Us</h2>
         <p>Subscribe to get offers and latest<br>updates every week!</p>
     </div>
 
-    <div class="send">
-        <form action="">
-            <input type="email" name="emailid" placeholder="E-mail" required>
-            <input type="submit" value="Subscribe">
+    <div class="contact-form-container">
+        
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" 
+                    name="name" 
+                    placeholder="Your Name" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" 
+                    name="email" 
+                    placeholder="Your Email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" 
+                    name="phone" 
+                    placeholder="Your Phone Number" required>
+                <span class="error-message" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" 
+                        name="message" 
+                        placeholder="Your Message" 
+                        rows="5" required></textarea>
+                <span class="error-message" 
+                    id="messageError"></span>
+            </div>
+            <button type="submit" 
+                    class="submit-button">
+            Send Message
+            </button>
         </form>
     </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 
 </section>
 
